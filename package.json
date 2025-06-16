@@ -1,0 +1,14 @@
+{
+  "name": "tag-version-release",
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "build:dev": "node src.mjs",
+    "build:prod": "cross-env BUILD_MODE=production node src.mjs"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
